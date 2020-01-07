@@ -115,7 +115,11 @@ nav a {
 .back{
 	display: flex;
 	justify-content: center;
-	align-items: center
+	align-items: center;
+	transition: all 0.3s;
+}
+.back:hover{
+	transform: scale(1.1);
 }
 
 .back h1{
@@ -147,7 +151,7 @@ nav a {
 #give{
 	background: url('../img/give.jpg')no-repeat center center ;
 }#new{
-	background: url('../img/imnew.jpg')no-repeat center center ;
+	background: url('../img/newre.jpg')no-repeat center center ;
 }
 
 .events {
@@ -210,6 +214,7 @@ footer p{
 	line-height: 30px;
 	font-family: canada-type-gibson, sans-serif!important;
 	letter-spacing: 0.02em;
+	font-weight: 100;
 }
 footer img{
 	height: 20px;
