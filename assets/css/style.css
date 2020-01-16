@@ -14,6 +14,14 @@ header {
 	-o-background-size: cover;
 	background-size: cover;
 }
+#connects header{
+	height: 100vh;
+	background: url('../img/connect.jpg')no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 back{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -28,7 +36,11 @@ nav {
 }
 
 
-
+#introduction p {
+	color: white;
+	font-size: 18px;
+	
+}
 
 .Gibson-Bold {
 
@@ -68,6 +80,11 @@ nav {
 
 	font-style: normal;
 }
+section ul{
+	
+	list-style-image: url(../img/plus.svg);
+	
+}
 
 nav a {
 	text-transform: uppercase;
@@ -97,10 +114,28 @@ nav a {
 	
 	color: #fff;
 }
-#sub-header h2{
+#sub-header h2, .connect-program h2{
 	font-size: 36px;
 	font-weight: 900;
 	color: darkcyan;
+}
+.connect-program h2{
+	display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+.connect-program h2:after{
+	content: '';
+    border-top: #ffa939 2px solid;
+    margin: 0 0px 0 10px;
+    flex: 1 0 20px;
+}
+.connect-program p{
+	font-size: 18px;
+	color: darkcyan;
+	margin-bottom: 10px;
 }
 #sub-header p{
 	font-size: 18px;
@@ -142,6 +177,27 @@ nav a {
 #function div:nth-child(even) {
 	
 
+}
+#mission-list{
+	font-family: canada-type-gibson, sans-serif!important;
+	color: darkcyan
+}
+#mission-list h4{
+	font-weight: 900;
+	font-size: 30px;
+}
+#mission-list li{
+	font-size:25px;
+	letter-spacing:  1px;
+	text-indent: 10px;
+	
+	
+	
+}
+#mission-list li:before{
+	
+	
+		
 }
 #connect{
 	background: url('../img/connect.jpg')no-repeat center center ;
